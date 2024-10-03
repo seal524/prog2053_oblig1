@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oblig 1</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="weather.js"></script>
+</head>
+<body onload="fetchWeather()">
+    <header>
+        <h3><b>Header Logo</b></h3>
+        <a href="index.html">Header link one</a> 
+        <a href="posts.html">Header link two</a> 
+        <a href="weather.html">Header link three</a>
+    </header>
+    <hr>
+    <h2>Current Weather Around The World</h2>
+    <div id="weatherbox">
+        <!-- The content will be updated by the javascript -->
+        <div id="location">
+            <h3>Location</h3>
+            <p>Tokyo, Japan</p>
+        </div>
+        <div id="temp">
+            <h3>Temperature</h3>
+            <p >10.0 °C</p>
+        </div>
+        <div id="wind">
+            <h3>Wind</h3>
+            <p>4.6 km/h 108°</p>
+        </div>
+    </div>
+
+    <footer>
+        Copyright &#169
+    </footer>
+</body>
+</html>

@@ -1,0 +1,220 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(./Roboto/Roboto-Regular.ttf) format("truetype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "RobotoBlack";
+    src: url(./Roboto/Roboto-Black.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(./Roboto/Roboto-Bold.ttf) format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "RobotoItalic";
+    src: url(./Roboto/Roboto-Italic.ttf) format("truetype");
+}
+
+/* Font styling*/
+
+b {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+h1 {
+    font-family: "RobotoBlack", sans-serif;
+}
+
+#quotebox > p {
+    font-family: "RobotoItalic", sans-serif;
+}
+
+/* Background styling*/
+
+body {
+    font-family: "Roboto", sans-serif;
+    text-align: justify;
+    margin: auto;
+    font-size: 1.5rem;
+}
+
+header {
+    text-align: center;
+    color: white;
+    background-color: #1f2936;
+    padding: 1%;
+}
+
+a {
+    padding: 0.4%;
+    color: white;
+    text-decoration: none;
+}
+
+hr {
+    color: #44505e;
+    margin: auto;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: #1f2936;
+    padding: 3%;
+    font-size: 0.9rem;
+}
+
+button {
+    font-size: 1.2rem;
+}
+
+/*Page 1 specific*/
+
+/*Styling box1*/
+
+#box1 {
+    color: white;
+    background-color: #1f2936;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5% 10%;
+}
+
+
+#box1 > div {
+    width: 45%;
+    text-align: left;
+}
+
+img {
+    width: 45%;
+    font-size: 0.9em;
+    background-color: #6d737d;
+    text-align: center;
+    padding: 10% 0%;
+}
+
+#button1 {
+    color: white;
+    border: none;
+    border-radius: 0.6em;
+    padding: 1.5%;
+    width: 30%;
+    background-color: #3782f5;
+}
+
+/*Styling box2*/
+
+h2 {
+    text-align: center;
+    margin: 2%;
+}
+
+.bluebox {
+    width: 35%;
+    border: 0.3em solid #3782f5;
+    border-radius: 0.5em;
+    padding: 8% 0%;
+}
+
+.textbox {
+    width: 50%;
+    font-size: 1.3rem;
+}
+
+#boxes {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    padding: 0% 20%;
+}
+
+#boxes > div {
+    margin: 7% 2%;
+}
+
+/* Styling the quote */
+
+#quotebox {
+    background-color: #e4e5eb;
+    padding: 5% 25%;
+}
+
+#quote {
+    text-shadow: 2px 3px 3px gray;
+    color: #242a35;
+}
+
+#signature {
+    text-align: right;
+}
+
+/* Styling box3 */
+
+#box3 {
+    display: flex; 
+    justify-content: center;
+    align-content: space-evenly;
+    align-items: center;
+    margin: 5% 15%;
+    padding: 2%;
+    background-color: #3782f5;
+    color: white;
+    border-radius: 0.6em;
+}
+
+#box3 > p {
+    width: 70%;
+}
+
+#box3 > button {
+    width: 20%;
+    color: white;
+    border: 0.2em solid white;
+    border-radius: 0.6em;
+    padding: 1%;
+    background-color: #3782f5;
+}
+
+/*Page 2 specific*/
+
+#contentbox {
+    margin: 0% 10%;
+}
+
+article {
+    width: 30%;
+    padding: 1.5%;
+    float: left;
+    
+}
+
+.clearfix {
+    margin: auto;
+    float: none;
+    clear: both;
+}
+
+/*Page 3 specific*/
+
+#weatherbox {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    margin: 2%;
+    color: white;
+}
+
+#weatherbox > div {
+    padding: 3%;
+    background-color: #3782f5;
+}
